@@ -1,5 +1,4 @@
-lst = [1,2,3,4,6,7]
-lst_1 =[1,2,3,4,5]
+lst = [1,2,3,4,6,7] #Делаем проверку списка непоследовательного
 i =0 
 for j in lst:
     if j - i != 1:
@@ -8,6 +7,7 @@ for j in lst:
 else:
     print(f"The number {i} is not sequential")
 
+lst_1 =[1,2,3,4,5] #Делаем проверку на последовательный список
 l = 0
 for k in lst_1:
     if k - l != 1:
