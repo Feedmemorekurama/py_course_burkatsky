@@ -15,5 +15,5 @@ while tries < 6:
         print("Your guess is too high")
     elif attempts == number:
         print("Congrats! You guessed my number!")    
-    elif guess !=number and tries ==6:
+    elif attempts !=number and tries ==6:
         print("Sorry, but your didn't make it.")
