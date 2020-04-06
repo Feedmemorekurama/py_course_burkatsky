@@ -13,10 +13,8 @@
 # check whether Pete and Billy can divide the melons so that each of them gets an even amount.
 
 def divide(weight):
-    if weight % 2 == 0 and weight!=2:
-        return True
-    else:
-        return False
+    return weight % 2 == 0 and weight!=2
+        
 
 watermelon=divide(4)
 melon = divide(2)

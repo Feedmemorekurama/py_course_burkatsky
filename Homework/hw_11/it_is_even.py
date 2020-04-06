@@ -5,9 +5,6 @@
 #Floats are considered UNeven for this kata.
 
 def is_even(n): 
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-        
-num= is_even(2222)
+    return n % 2 == 0
+             
+print(is_even(2222))

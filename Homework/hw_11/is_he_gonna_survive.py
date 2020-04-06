@@ -5,11 +5,8 @@
 # and move forward to fight another specific given number of dragons, will he survive?Return True if yes, False otherwise :)
 
 def hero(bullets, dragons):
-    if dragons*2 <= bullets:   
-        return True
-    else:
-        return False
-
+    return dragons*2 <= bullets 
+     
 clip_bullet=hero(10,5)
 print(clip_bullet)
 
