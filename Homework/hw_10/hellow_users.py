@@ -1,18 +1,18 @@
 roles = {
-    "admin": 'Markus',
-    "maintainer": 'Bobby',
-    "manager": 'Garry',
-    "developer": 'Carlos'}
+    "admin": ['Markus','John','Rob'],
+    "maintainer": ['Bobby','Andy','Carlsen'],
+    "manager": ['Garry','Mob','Ozzy'],
+    "developer": ['Carlos','Max','Artur']}
 
 name = input("My name is, ")
-for i in roles.values():
-    if name == 'Markus':
+for i in roles.items():
+    if name in roles['admin']:
         print("Hello, admin!")
-    elif name == 'Bobby':
+    elif name in roles['maintainer']:
         print("Hello, maintainer!")
-    elif name == 'Garry':
+    elif name in roles['manager']:
         print("Hello, manager!")
-    elif name == 'Carlos':
+    elif name in roles['developer']:
         print("Hello, developer!")
     else:
         print("Hello, Guess")
